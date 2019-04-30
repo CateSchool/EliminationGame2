@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BBAE1D42252A60D00750EA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBAE1D32252A60D00750EA2 /* AppDelegate.swift */; };
+		6BBAE1D62252A60D00750EA2 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBAE1D52252A60D00750EA2 /* InitialViewController.swift */; };
+		6BBAE1D92252A60D00750EA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BBAE1D72252A60D00750EA2 /* Main.storyboard */; };
+		6BBAE1DB2252A60F00750EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BBAE1DA2252A60F00750EA2 /* Assets.xcassets */; };
+		6BBAE1DE2252A60F00750EA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BBAE1DC2252A60F00750EA2 /* LaunchScreen.storyboard */; };
+		D9435B062265256600681070 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9435B052265256600681070 /* SecondViewController.swift */; };
+		D9435B082265257300681070 /* HeadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9435B072265257300681070 /* HeadsViewController.swift */; };
+		D9C35091227387AA0043B7F6 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C35090227387AA0043B7F6 /* UserInfo.swift */; };
+		FD14F8997832430557AAF1AC /* Pods_Elimination_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE43DA6A2CDBFDBAD7A3978 /* Pods_Elimination_Game.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BBAE1D02252A60D00750EA2 /* Elimination Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elimination Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBAE1D32252A60D00750EA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BBAE1D52252A60D00750EA2 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		6BBAE1D82252A60D00750EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BBAE1DA2252A60F00750EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BBAE1DD2252A60F00750EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BBAE1DF2252A60F00750EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A128DCDB50D2F209E0BA9015 /* Pods-Elimination Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elimination Game.release.xcconfig"; path = "Target Support Files/Pods-Elimination Game/Pods-Elimination Game.release.xcconfig"; sourceTree = "<group>"; };
+		A3E1D86FA50717B2889BC368 /* Pods-Elimination Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elimination Game.debug.xcconfig"; path = "Target Support Files/Pods-Elimination Game/Pods-Elimination Game.debug.xcconfig"; sourceTree = "<group>"; };
+		D9435B052265256600681070 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D9435B072265257300681070 /* HeadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsViewController.swift; sourceTree = "<group>"; };
+		D9C35090227387AA0043B7F6 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		FCE43DA6A2CDBFDBAD7A3978 /* Pods_Elimination_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elimination_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BBAE1CD2252A60D00750EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD14F8997832430557AAF1AC /* Pods_Elimination_Game.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BBAE1C72252A60D00750EA2 = {
+			isa = PBXGroup;
+			children = (
+				6BBAE1D22252A60D00750EA2 /* Elimination Game */,
+				6BBAE1D12252A60D00750EA2 /* Products */,
+				95A2D2BEB9D1C7BD71DF9B8B /* Pods */,
+				961490D1215EFCFA4F0808E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BBAE1D12252A60D00750EA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BBAE1D02252A60D00750EA2 /* Elimination Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BBAE1D22252A60D00750EA2 /* Elimination Game */ = {
+			isa = PBXGroup;
+			children = (
+				6BBAE1D32252A60D00750EA2 /* AppDelegate.swift */,
+				6BBAE1D52252A60D00750EA2 /* InitialViewController.swift */,
+				D9435B052265256600681070 /* SecondViewController.swift */,
+				D9435B072265257300681070 /* HeadsViewController.swift */,
+				6BBAE1D72252A60D00750EA2 /* Main.storyboard */,
+				6BBAE1DA2252A60F00750EA2 /* Assets.xcassets */,
+				6BBAE1DC2252A60F00750EA2 /* LaunchScreen.storyboard */,
+				6BBAE1DF2252A60F00750EA2 /* Info.plist */,
+				D9C35090227387AA0043B7F6 /* UserInfo.swift */,
+			);
+			path = "Elimination Game";
+			sourceTree = "<group>";
+		};
+		95A2D2BEB9D1C7BD71DF9B8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3E1D86FA50717B2889BC368 /* Pods-Elimination Game.debug.xcconfig */,
+				A128DCDB50D2F209E0BA9015 /* Pods-Elimination Game.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		961490D1215EFCFA4F0808E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCE43DA6A2CDBFDBAD7A3978 /* Pods_Elimination_Game.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BBAE1CF2252A60D00750EA2 /* Elimination Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BBAE1E22252A60F00750EA2 /* Build configuration list for PBXNativeTarget "Elimination Game" */;
+			buildPhases = (
+				0A48D9A0DC9AB770150BE7CF /* [CP] Check Pods Manifest.lock */,
+				6BBAE1CC2252A60D00750EA2 /* Sources */,
+				6BBAE1CD2252A60D00750EA2 /* Frameworks */,
+				6BBAE1CE2252A60D00750EA2 /* Resources */,
+				A7C52CAC11D44137A09F1E19 /* [CP] Embed Pods Frameworks */,
+				97E5A24CC20C4E0F77D7BA73 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Elimination Game";
+			productName = "Elimination Game";
+			productReference = 6BBAE1D02252A60D00750EA2 /* Elimination Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BBAE1C82252A60D00750EA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Georgia Ann Douglas";
+				TargetAttributes = {
+					6BBAE1CF2252A60D00750EA2 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 6BBAE1CB2252A60D00750EA2 /* Build configuration list for PBXProject "Elimination Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BBAE1C72252A60D00750EA2;
+			productRefGroup = 6BBAE1D12252A60D00750EA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BBAE1CF2252A60D00750EA2 /* Elimination Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BBAE1CE2252A60D00750EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBAE1DE2252A60F00750EA2 /* LaunchScreen.storyboard in Resources */,
+				6BBAE1DB2252A60F00750EA2 /* Assets.xcassets in Resources */,
+				6BBAE1D92252A60D00750EA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A48D9A0DC9AB770150BE7CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Elimination Game-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97E5A24CC20C4E0F77D7BA73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Elimination Game/Pods-Elimination Game-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Elimination Game/Pods-Elimination Game-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C52CAC11D44137A09F1E19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Elimination Game/Pods-Elimination Game-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Elimination Game/Pods-Elimination Game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BBAE1CC2252A60D00750EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9435B082265257300681070 /* HeadsViewController.swift in Sources */,
+				D9435B062265256600681070 /* SecondViewController.swift in Sources */,
+				6BBAE1D62252A60D00750EA2 /* InitialViewController.swift in Sources */,
+				D9C35091227387AA0043B7F6 /* UserInfo.swift in Sources */,
+				6BBAE1D42252A60D00750EA2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BBAE1D72252A60D00750EA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BBAE1D82252A60D00750EA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BBAE1DC2252A60F00750EA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BBAE1DD2252A60F00750EA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BBAE1E02252A60F00750EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BBAE1E12252A60F00750EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BBAE1E32252A60F00750EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E1D86FA50717B2889BC368 /* Pods-Elimination Game.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U47SXC7AP2;
+				INFOPLIST_FILE = "Elimination Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cate.elimination;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6BBAE1E42252A60F00750EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A128DCDB50D2F209E0BA9015 /* Pods-Elimination Game.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U47SXC7AP2;
+				INFOPLIST_FILE = "Elimination Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cate.elimination;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BBAE1CB2252A60D00750EA2 /* Build configuration list for PBXProject "Elimination Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBAE1E02252A60F00750EA2 /* Debug */,
+				6BBAE1E12252A60F00750EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BBAE1E22252A60F00750EA2 /* Build configuration list for PBXNativeTarget "Elimination Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBAE1E32252A60F00750EA2 /* Debug */,
+				6BBAE1E42252A60F00750EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BBAE1C82252A60D00750EA2 /* Project object */;
+}
