@@ -12,7 +12,7 @@ import GoogleToolboxForMac
 import GoogleAPIClientForREST
 
 
-var currentUser = Player(userName: "", userEmail: "")
+var currentUser = Player(userName: "", userEmail: "", killCount: 0, target: "", hasRecentlyEliminated: false, isKillLeader: false, hasBeenEliminated: false)
 
 @UIApplicationMain
 

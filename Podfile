@@ -7,7 +7,9 @@ target 'Elimination Game' do
 
 pod 'GoogleAPIClientForREST/Sheets'
 pod 'GoogleSignIn'
-
-  # Pods for GoogleAuthExample
+pod 'SwiftyJSON'
+pod 'Alamofire'
+ 
+ # Pods for Elimination
 
 end
